@@ -26,7 +26,7 @@
 				color="#000"
 				text-transform="uppercase"
 				align="center"
-        padding="0"
+				padding="0"
 			>
 				Adonis Health Inc
 			</mj-text>
@@ -35,7 +35,7 @@
 				color="#000"
 				text-transform="uppercase"
 				align="center"
-        padding="5px"
+				padding="5px"
 			>
 				580 California Street Suite 1200 | San Francisco, CA 94104-1071 | (909)
 				787-2342
@@ -45,7 +45,7 @@
 				color="#000"
 				text-transform="uppercase"
 				font-weight="bold"
-        padding="20px 0 0 0"
+				padding="20px 0 0 0"
 			>
 				<span style="color: green">I</span>Prescription
 				<span style="color: green">Order Form</span>
@@ -53,133 +53,295 @@
 		</mj-hero>
 		<!--Hero Section End-->
 
-		<mj-wrapper padding="10px 0 0 0"> 
+		<mj-wrapper padding="10px 0 0 0">
 			<mj-section padding="0">
-				<mj-column width="50%" >
-					<mj-text font-size="11px" color="#000" align="left"  background-color="blue" padding="5px">
-              <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-              <p style="font-weight: bold;">Patient</p>
-						  <p style="font-size: 14px">Kevin Edward Toole</p>
-              </div>
-						
+				<mj-column width="50%">
+					<mj-text
+						font-size="11px"
+						color="#000"
+						align="left"
+						background-color="blue"
+						padding="5px"
+					>
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Patient</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0"
+								>Kevin Edward Toole</p
+							>
+						</div>
 					</mj-text>
 				</mj-column>
 
-				<mj-column width="25%" padding="0px"
-					>
-          <mj-text font-size="11px" color="#000" align="left" padding="5px">
-            <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-              <p style="font-weight: bold;">Phone</p>
-              <p style="font-size: 14px">(912) 257-5415</p>
-            </div>	
+				<mj-column width="25%" padding="0px">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Phone</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">(912) 257-5415</p>
+						</div>
 					</mj-text>
 				</mj-column>
-				<mj-column width="25%"
-					>
-          <mj-text font-size="11px" color="#000" align="left" padding="5px">
-            <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-              <p style="font-weight: bold;">Date of Birth</p>
-              <p style="font-size: 14px">1979-05-06</p>
-            </div>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Date of Birth</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">1979-05-06</p>
+						</div>
 					</mj-text>
 				</mj-column>
 				<mj-column width="50%">
 					<mj-text font-size="11px" color="#000" align="left" padding="5px">
-            <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px; padding-bottom: 75px;">
-              <p style="font-weight: bold;">Shipping Address</p>
-              <p style="font-size: 14px; ">6040 Baltimore Ave<br />Cocoa, FL 32927</p>
-              
-            </div>
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								border-radius: 10px;
+								padding-bottom: 22px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Shipping Address</p>
+							<p style="font-size: 14px"
+								>6040 Baltimore Ave<br />Cocoa, FL 32927</p
+							>
+						</div>
 					</mj-text>
 				</mj-column>
 				<mj-column width="50%">
 					<mj-group>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                  <p style="font-weight: bold;">Diagnosis</p>
-                  <p style="font-size: 14px">E29.1</p>
-                </div>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Diagnosis</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0">E29.1</p>
+								</div>
 							</mj-text>
 						</mj-column>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-               <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                <p style="font-weight: bold;">Appointment Date (LOV)</p>
-								<p style="font-size: 14px">2025-01-20</p>
-               </div>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0"
+										>Appointment Date (LOV)</p
+									>
+									<p style="font-size: 14px; margin: 5px 0 0 0">2025-01-20</p>
+								</div>
 							</mj-text>
 						</mj-column>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-               <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-               	<p style="font-weight: bold;">Patient Email</p>
-								<p style="font-size: 14px">toolebox@gmail.com</p>
-               </div>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Patient Email</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0"
+										>toolebox@gmail.com</p
+									>
+								</div>
 							</mj-text>
 						</mj-column>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-               <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-               	<p style="font-weight: bold;">Patient Email</p>
-								<p style="font-size: 14px">toolebox@gmail.com</p>
-               </div>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Patient Email</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0"
+										>toolebox@gmail.com</p
+									>
+								</div>
 							</mj-text>
 						</mj-column>
 					</mj-group>
 				</mj-column>
 
 				<mj-column width="50%">
-					<mj-table padding="5px">
-            <tr>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span>SHIP TO:</span>
-                <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center">✔</span>
-                <span>Patient</span>
-              </td>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center">✔</span>
-                <span>Office</span>
-              </td>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center">✔</span>
-                <span>2-Day Shipping</span>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span>BILL TO:</span>
-               <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center"></span>
-                <span>Patient</span>
-              </td>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center"></span>
-                <span>Office</span>
-              </td>
-              <td style="padding: 5px 0px; text-align: left; color: #000; font-size: 11px;">
-                <span style="display: inline-block; width: 11px; height: 11px; border: 1px solid #000; line-height: 11px; text-align: center">✔</span>
-                <span>Overnight Shipping</span>
-              </td>
-            </tr>
-          </mj-table>
+					<mj-table padding="0 5px">
+						<tr>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span>SHIP TO:</span>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+									>✔</span
+								>
+								<span>Patient</span>
+							</td>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+									>✔</span
+								>
+								<span>Office</span>
+							</td>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+									>✔</span
+								>
+								<span>2-Day Shipping</span>
+							</td>
+						</tr>
+						<tr>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span>BILL TO:</span>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+								></span>
+								<span>Patient</span>
+							</td>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+								></span>
+								<span>Office</span>
+							</td>
+							<td
+								style="
+									padding: 0;
+									text-align: left;
+									color: #000;
+									font-size: 11px;
+								"
+							>
+								<span
+									style="
+										display: inline-block;
+										width: 11px;
+										height: 11px;
+										border: 1px solid #000;
+										line-height: 11px;
+										text-align: center;
+									"
+									>✔</span
+								>
+								<span>Overnight Shipping</span>
+							</td>
+						</tr>
+					</mj-table>
 				</mj-column>
 				<mj-column width="50%">
 					<mj-group>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-               <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-               	<p style="font-weight: bold;">Known Allergies:</p>
-								<p style="font-size: 14px">NKDA</p>
-               </div>
-					
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Known Allergies:</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0">NKDA</p>
+								</div>
 							</mj-text>
 						</mj-column>
 						<mj-column width="50%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                <p style="font-weight: bold;">Patient ID:</p>
-								<p style="font-size: 14px">FL T400-505-79-166-0</p>
-                </div>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Patient ID:</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0"
+										>FL T400-505-79-166-0</p
+									>
+								</div>
 							</mj-text>
 						</mj-column>
 					</mj-group>
@@ -187,71 +349,95 @@
 			</mj-section>
 			<!--Form Section End-->
 
-			<mj-section padding="10px 0 0 0">
+			<mj-section padding="0px 0 0 0">
 				<mj-column width="100%">
 					<mj-raw>
-						<p
+						<mj-text
 							font-size="30px"
 							color="#000"
 							text-transform="uppercase"
 							font-weight="bold"
-							background-color="#999999"
-							style="
-								font-size: 30px;
-								color: white;
-								text-transform: uppercase;
-								background: green;
-								padding-left: 10px;
-							"
+							padding="20px 0 0 0"
 						>
-							Medications
-						</p>
+							<p
+								font-size="30px"
+								color="#000"
+								text-transform="uppercase"
+								background-color="#999999"
+								font-weight="bold"
+								style="
+									font-size: 30px;
+									color: white;
+									text-transform: uppercase;
+									background: green;
+									padding-left: 10px;
+									font-family: Arial;
+								"
+							>
+								Medications
+							</p>
+						</mj-text>
 					</mj-raw>
 				</mj-column>
 
 				<mj-column width="100%">
 					<mj-group>
 						<mj-column width="70%">
-            <mj-group>
-              <mj-column width="30%">
-                <mj-raw  padding="5px">
-                  <p style="color: #000;padding: 5px;">
-                    <span
-                      style="
-                        display: inline-block;
-                        width: 16px;
-                        height: 16px;
-                        border: 1px solid #000;
-                        margin-right: 5px;
-                        text-align: center;
-                        color: #000;
-                      "
-                      ><span style="margin-top: 6px; display: inline-block"
-                        >✔</span
-                      ></span
-                    >
-                    Sig
-                  </p>
-                </mj-raw>
-              </mj-column>
+							<mj-group width="100%">
+								<mj-column width="15%">
+									<mj-raw>
+										<p style="color: #000; padding: 0 5px 0 5px">
+											<span
+												style="
+													display: inline-block;
+													width: 16px;
+													height: 16px;
+													border: 1px solid #000;
+													margin-right: 5px;
+													text-align: center;
+													color: #000;
+												"
+												><span style="margin-top: 6px; display: inline-block"
+													>✔</span
+												></span
+											>
+											Sig
+										</p>
+									</mj-raw>
+								</mj-column>
 
-              <mj-column width="70%">
-              	<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<mj-raw>
-									<div>
-                    <p>Kyzatrex 200mg</p>
-                    <p>Take one capsule two times a day with food </p>
-									</div>
-								</mj-raw>
-							</mj-text>
-              </mj-column>
-            </mj-group>
-						
+								<mj-column width="85%">
+									<mj-text
+										font-size="11px"
+										color="#000"
+										align="left"
+										padding="5px"
+									>
+										<mj-raw>
+											<div style="width: 100%">
+												<p style="font-weight: bold; margin: 0; width: 100%">
+													Kyzatrex 200mg</p
+												>
+												<p
+													style="
+														font-size: 14px;
+														margin: 5px 0 0 0;
+														width: 100%;
+														display: block;
+													"
+													>Take one capsule two times a day with food
+												</p>
+											</div>
+										</mj-raw>
+									</mj-text>
+								</mj-column>
+							</mj-group>
+
 							<mj-divider
 								border-color="#000"
 								border-style="dashed"
 								border-width="2px"
-                padding="5px"
+								padding="12px 5px 0 5px"
 							/>
 						</mj-column>
 
@@ -261,17 +447,17 @@
 								color="#000"
 								align="center"
 								text-transform="uppercase"
-                padding="5px"
+								padding="5px"
 							>
 								<div
 									style="
 										border: 2px solid black;
-										padding: 5px;
 										border-radius: 7px;
+										padding: 7px 5px;
 									"
 								>
-									<p>QTY</p>
-									<p style="font-size: 20px">180</p>
+									<p style="font-weight: bold; margin: 0">QTY</p>
+									<p style="font-size: 20px; margin: 5px 0 0 0">180</p>
 								</div>
 							</mj-text>
 						</mj-column>
@@ -281,110 +467,181 @@
 								color="#000"
 								align="center"
 								text-transform="uppercase"
-                padding="5px"
+								padding="5px"
 							>
 								<div
 									style="
 										border: 2px solid black;
-										padding: 5px;
+										padding: 7px 5px;
 										border-radius: 7px;
 									"
 								>
-									<p>Refills</p>
-									<p style="font-size: 20px">0</p>
+									<p style="font-weight: bold; margin: 0">Refills</p>
+									<p style="font-size: 20px; margin: 5px 0 0 0">0</p>
 								</div>
 							</mj-text>
 						</mj-column>
 
-						<mj-column width="100%">
+						<!-- <mj-column width="100%">
 							<mj-text font-size="11px" color="#000" align="left" padding="5px">
                 <div style="border: 1px dashed; padding: 0 10px; height: 150px;">
                   <p style="font-weight: bold;">Reason for Compounding:</p>
                   <div>
                 </div>
               </mj-text>
-						</mj-column>
+						</mj-column> -->
 					</mj-group>
 				</mj-column>
 			</mj-section>
-      <!--Medication section end-->
+			<!--Medication section end-->
 
-      <mj-section padding="10px 0 20px 0">
-          <mj-column width="50%" >
-            <mj-text font-size="11px" color="#000" align="left" padding="5px">
-              <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                <p style="font-weight: bold;">Submitted By:</p>
-                <p style="font-size: 14px">Robyn Staubach, NP</p>
-              </div>
-            </mj-text>
-          </mj-column>
-          <mj-column width="25%" 
-            ><mj-text font-size="11px" color="#000" align="left" padding="5px">
-             <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-              <p style="font-weight: bold;">NPI</p>
-              <p style="font-size: 14px">1346297744</p>
-             </div>
-              
-            </mj-text>
-          </mj-column>
-          <mj-column width="25%"
-            ><mj-text font-size="11px" color="#000" align="left" padding="5px">
-            <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-              <p style="font-weight: bold;">DEA Number</p>
-              <p style="font-size: 14px">MS7997907</p>
-            </div>
-            </mj-text>
-          </mj-column>
-          <mj-column width="50%">
-            <mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                  <p style="font-weight: bold;">Signature:</p>
-                  <img style="width: 220px;" src="https://mjml.io/assets/img/logo-small.png">
-                  <p>
-                <span style="display: inline-block; width: 16px; height: 16px; border: 1px solid #000; line-height: 16px; text-align: center; margin-top: 2px">✔</span> <span style="margin-left: 10px;">This Rx was electronically signed by the prescribing practitioner</span>
+			<mj-section padding="10px 0 20px 0">
+				<mj-column width="50%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Submitted By:</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0"
+								>Robyn Staubach, NP</p
+							>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%"
+					><mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">NPI</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">1346297744</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%"
+					><mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">DEA Number</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">MS7997907</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Signature:</p>
+							<img
+								style="width: 140px"
+								src="https://mjml.io/assets/img/logo-small.png"
+							/>
+							<p style="font-weight: bold; margin: 11px 0 0 0">
+								<span
+									style="
+										display: inline-block;
+										width: 16px;
+										height: 16px;
+										border: 1px solid #000;
+										line-height: 16px;
+										text-align: center;
+									"
+									>✔</span
+								>
+								<span style="margin-left: 10px"
+									>This Rx was electronically signed by the prescribing
+									practitioner</span
+								>
+							</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="50%">
+					<mj-group>
+						<mj-column width="50%"
+							><mj-text
+								font-size="11px"
+								color="#000"
+								align="left"
+								padding="5px"
+							>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Date</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0">01/21/2025</p>
+								</div>
+							</mj-text>
+						</mj-column>
+						<mj-column width="50%"
+							><mj-text
+								font-size="11px"
+								color="#000"
+								align="left"
+								padding="5px"
+							>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">DEA Number</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0">MS7997907</p>
+								</div>
+							</mj-text>
+						</mj-column>
+						<mj-column width="100%"
+							><mj-text
+								font-size="11px"
+								color="#000"
+								align="left"
+								padding="5px"
+							>
+								<div
+									style="
+										border: 1px solid;
+										padding: 5px 10px;
+										border-radius: 10px;
+									"
+								>
+									<p style="font-weight: bold; margin: 0">Office Address:</p>
+									<p style="font-size: 14px; margin: 5px 0 0 0"
+										>Adonis Health Inc.1688 Meridian Ave Suite 700 Miami Beach,
+										FL 33139</p
+									>
+								</div>
+							</mj-text>
+						</mj-column>
+					</mj-group>
+				</mj-column>
 
-                  </p>
-                </div>
-            </mj-text>
-          </mj-column>
-          <mj-column width="50%">
-            <mj-group>
-              <mj-column width="50%" 
-                ><mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                  <p style="font-weight: bold;">Date</p>
-                  <p style="font-size: 14px">01/21/2025</p>
-                </div>
-                  
-                </mj-text>
-              </mj-column>
-              <mj-column width="50%"
-                ><mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                  <p style="font-weight: bold;">DEA Number</p>
-                  <p style="font-size: 14px">MS7997907</p>
-                </div>
-                </mj-text>
-              </mj-column>
-              <mj-column width="100%"
-                ><mj-text font-size="11px" color="#000" align="left" padding="5px">
-                <div style="border: 1px solid; padding: 5px 10px; border-radius: 10px;">
-                  <p style="font-weight: bold;">Office Address:</p>
-                  <p style="font-size: 14px">Adonis Health Inc.1688 Meridian Ave  Suite 700 Miami Beach, FL 33139</p>
-                </div>
-                </mj-text>
-              </mj-column>
-            </mj-group>
-          </mj-column>
-
-          <mj-column width="100%">
-          <mj-text font-size="11px" color="#333333" padding="5px">
-          The decision to prescribe medication is a medical decision to be solely made by the prescribing practitioner practicing independently under their own professional judgement or in collaboration with a supervising physician. By providing a prescription form listing medications compounded by a compounding pharmacy or practice management organization (PMO), neither the pharmacy or practice management organization (PMO) is suggesting or recommending that any medication be prescribed for a patient. The compounded medications listed are made at the request of the prescribing practitioner whose signature appears above due to the medical need of a specific patient and the preparation is prescribed because the prescriber has determined that the preparation will produce a clinically significant therapeutic response compared to a commercially available product.
- 
-          </mj-text>
-          </mj-column>
-          
-      </mj-section>
+				<mj-column width="100%">
+					<mj-text font-size="11px" color="#333333" padding="5px">
+						The decision to prescribe medication is a medical decision to be
+						solely made by the prescribing practitioner practicing independently
+						under their own professional judgement or in collaboration with a
+						supervising physician. By providing a prescription form listing
+						medications compounded by a compounding pharmacy or practice
+						management organization (PMO), neither the pharmacy or practice
+						management organization (PMO) is suggesting or recommending that any
+						medication be prescribed for a patient. The compounded medications
+						listed are made at the request of the prescribing practitioner whose
+						signature appears above due to the medical need of a specific
+						patient and the preparation is prescribed because the prescriber has
+						determined that the preparation will produce a clinically
+						significant therapeutic response compared to a commercially
+						available product.
+					</mj-text>
+				</mj-column>
+			</mj-section>
 		</mj-wrapper>
 	</mj-body>
 </mjml>
