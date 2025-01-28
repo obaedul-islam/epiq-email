@@ -19,6 +19,7 @@
 		<mj-hero padding="20px 0 0 0">
 			<mj-image
 				width="150px"
+				align="center"
 				src="https://mjml.io/assets/img/logo-small.png"
 			></mj-image>
 			<mj-text
@@ -94,88 +95,110 @@
 						</div>
 					</mj-text>
 				</mj-column>
+
 				<mj-column width="50%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Shipping Address</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0"
+								>6040 Baltimore Ave<br />Cocoa, FL 32927</p
+							>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								min-height: 44px;
+								border-radius: 10px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Diagnosis</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">E29.1</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								min-height: 44px;
+								border-radius: 10px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Appointment Date (LOV)</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">2025-01-20</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
 					<mj-text font-size="11px" color="#000" align="left" padding="5px">
 						<div
 							style="
 								border: 1px solid;
 								padding: 5px 10px;
 								border-radius: 10px;
-								padding-bottom: 22px;
+								min-height: 44px;
 							"
 						>
-							<p style="font-weight: bold; margin: 0">Shipping Address</p>
-							<p style="font-size: 14px"
-								>6040 Baltimore Ave<br />Cocoa, FL 32927</p
+							<p style="font-weight: bold; margin: 0">Current Medications</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">Medication Name</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								border-radius: 10px;
+								min-height: 44px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Driver's License #</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">License</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								border-radius: 10px;
+								min-height: 44px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Patient Email</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0"
+								>toolebox@gmail.com</p
 							>
 						</div>
 					</mj-text>
 				</mj-column>
-				<mj-column width="50%">
-					<mj-group>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0">Diagnosis</p>
-									<p style="font-size: 14px; margin: 5px 0 0 0">E29.1</p>
-								</div>
-							</mj-text>
-						</mj-column>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0"
-										>Appointment Date (LOV)</p
-									>
-									<p style="font-size: 14px; margin: 5px 0 0 0">2025-01-20</p>
-								</div>
-							</mj-text>
-						</mj-column>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0">Patient Email</p>
-									<p style="font-size: 14px; margin: 5px 0 0 0"
-										>toolebox@gmail.com</p
-									>
-								</div>
-							</mj-text>
-						</mj-column>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0">Patient Email</p>
-									<p style="font-size: 14px; margin: 5px 0 0 0"
-										>toolebox@gmail.com</p
-									>
-								</div>
-							</mj-text>
-						</mj-column>
-					</mj-group>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								border-radius: 10px;
+								min-height: 44px;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Gender</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">Male</p>
+						</div>
+					</mj-text>
 				</mj-column>
 
 				<mj-column width="50%">
@@ -312,39 +335,32 @@
 						</tr>
 					</mj-table>
 				</mj-column>
-				<mj-column width="50%">
-					<mj-group>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0">Known Allergies:</p>
-									<p style="font-size: 14px; margin: 5px 0 0 0">NKDA</p>
-								</div>
-							</mj-text>
-						</mj-column>
-						<mj-column width="50%">
-							<mj-text font-size="11px" color="#000" align="left" padding="5px">
-								<div
-									style="
-										border: 1px solid;
-										padding: 5px 10px;
-										border-radius: 10px;
-									"
-								>
-									<p style="font-weight: bold; margin: 0">Patient ID:</p>
-									<p style="font-size: 14px; margin: 5px 0 0 0"
-										>FL T400-505-79-166-0</p
-									>
-								</div>
-							</mj-text>
-						</mj-column>
-					</mj-group>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="
+								border: 1px solid;
+								padding: 5px 10px;
+								border-radius: 10px;
+								min-height: ;
+							"
+						>
+							<p style="font-weight: bold; margin: 0">Known Allergies:</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0">NKDA</p>
+						</div>
+					</mj-text>
+				</mj-column>
+				<mj-column width="25%">
+					<mj-text font-size="11px" color="#000" align="left" padding="5px">
+						<div
+							style="border: 1px solid; padding: 5px 10px; border-radius: 10px"
+						>
+							<p style="font-weight: bold; margin: 0">Patient ID:</p>
+							<p style="font-size: 14px; margin: 5px 0 0 0"
+								>FL T400-505-79-166-0</p
+							>
+						</div>
+					</mj-text>
 				</mj-column>
 			</mj-section>
 			<!--Form Section End-->
@@ -384,29 +400,7 @@
 					<mj-group>
 						<mj-column width="70%">
 							<mj-group width="100%">
-								<mj-column width="15%">
-									<mj-raw>
-										<p style="color: #000; padding: 0 5px 0 5px">
-											<span
-												style="
-													display: inline-block;
-													width: 16px;
-													height: 16px;
-													border: 1px solid #000;
-													margin-right: 5px;
-													text-align: center;
-													color: #000;
-												"
-												><span style="margin-top: 6px; display: inline-block"
-													>✔</span
-												></span
-											>
-											Sig
-										</p>
-									</mj-raw>
-								</mj-column>
-
-								<mj-column width="85%">
+								<mj-column width="100%">
 									<mj-text
 										font-size="11px"
 										color="#000"
@@ -420,12 +414,12 @@
 												>
 												<p
 													style="
-														font-size: 14px;
-														margin: 5px 0 0 0;
+														font-size: 11px;
+														margin: 10px 0 0 0;
 														width: 100%;
 														display: block;
 													"
-													>Take one capsule two times a day with food
+													>Sig: Take one capsule two times a day with food
 												</p>
 											</div>
 										</mj-raw>
